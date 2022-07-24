@@ -13,7 +13,7 @@ function RecentWork() {
                         {
                             daftarGambar.map(function(gambar) {
                                 return (
-                                    <div className="col-4 mt-4 gambarku">
+                                    <div className="col-4 mt-4 gambarku" id="recent">
                                         <img
                                         className="img-fluid"
                                         src={gambar}

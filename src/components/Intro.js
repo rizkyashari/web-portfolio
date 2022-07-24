@@ -24,7 +24,7 @@ function Intro() {
                     <div className="col">
                     <MyButton 
                     text="Hire Me"
-                    link="About Me"
+                    link="#about"
                     warna="warning"/>
                     </div>
                 </div>
