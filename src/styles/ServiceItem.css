@@ -1,0 +1,24 @@
+.card {
+    transition: 0.8s;
+    border-left: gold solid 10px;
+}
+
+.card:hover {
+    transform: rotateY(30deg);
+}
+
+.merah {
+    border-left: red solid 5px;
+}
+
+.hijau {
+    border-left: green solid 5px;
+}
+
+.biru {
+    border-left: blue solid 5px;
+}
+
+.kuning {
+    border-left: yellow solid 5px;
+}

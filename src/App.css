@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+.intro {
+    background: url(https://images.unsplash.com/photo-1599707017605-b804c8ca4a44?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.section {
+    /* vh = vertical height, 100 persentase buat menuhin 1 layar*/
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.avatar {
+    width: 200px;
+    border-radius: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.social-media {
+    font-size: 30px;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: 0.5s;
 }
 
-.App-link {
-  color: #61dafb;
+.gambarku {
+    transition: 0.5s;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.gambarku:hover {
+    transform: scale(1.1);
 }
